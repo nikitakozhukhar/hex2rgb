@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+.backgroundColorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: red; */
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.input {
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+}
+
+.newRGB {
+  width: 150px;
+  height: 30px;
+
+  text-align: center;
+  background-color: #fff;
+
+  color: black;
+  font-weight: 600;
+}
