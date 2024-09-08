@@ -11,7 +11,7 @@ export function ConverterToRGB() {
     
     const hexValue = e.target.value;
 
-    if (!regHEX && hexValue.length > 7) return 
+    if (!regHEX || hexValue.length > 7) return 
 
     setValue(hexValue);
     
